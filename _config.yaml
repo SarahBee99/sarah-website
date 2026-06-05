@@ -5,7 +5,7 @@ author: "me"
 url: "https://sarahbee99.github.io"
 baseurl: "/sarah-website"
 
-theme: cayman
+theme: jekyll-theme-cayman
 plugins:
   - jekyll-feed
   - jekyll-sitemap
