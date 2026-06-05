@@ -1,0 +1,11 @@
+title: "My Website"
+description: "Welcome to my website and blog."
+author: "me"
+
+url: "https://sarahbee99.github.io"
+baseurl: "/sarah-website"
+
+theme: cayman
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
