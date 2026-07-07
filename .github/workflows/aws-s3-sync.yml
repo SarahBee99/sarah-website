@@ -1,4 +1,4 @@
-name: Synch to S3
+name: Deploy Jekyll to AWS S3
 
 on:
   push:
@@ -6,15 +6,35 @@ on:
 
 jobs:
 
-  deploy-to-s3:
+  deploy:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - name: Configure AWS Credentials
-        uses: aws-actions/configure-aws-credentials@v4
-        with:
-          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
-          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-          aws-region: eu-west-1
-      - name: Deploy to S3
-        run: aws s3 sync . s3://sarahrashed.com
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+    - name: Setup Ruby 
+      uses: ruby/setup-ruby@v1
+      with:
+        ruby-version: '3.2'
+        bundler-cache: true
+
+    - name: Build Jekyll site
+      run: bundle exec jekyll build
+      env:
+        JEKLL_ENV: production
+
+      
+    - name: Configure AWS Credentials
+      uses: aws-actions/configure-aws-credentials@v4
+      with:
+        aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+        aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+        aws-region: eu-west-1
+
+    - name: Synch Site to S3
+      uses: jakejarvis/s3-sync-action@master
+      with:
+        args: --delete --follow-symlinks
+      env:
+        AWS_S3_BUCKET: ${{secrets.AWS_S3_BUCKET}}
+        SOURCE_DIR: 'site'
