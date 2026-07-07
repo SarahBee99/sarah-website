@@ -18,6 +18,9 @@ jobs:
         ruby-version: '3.2'
         bundler-cache: false
 
+    - name: Install Dependencies 
+      run: bundle install     
+
     - name: Build Jekyll site
       run: bundle exec jekyll build --trace
       env:
