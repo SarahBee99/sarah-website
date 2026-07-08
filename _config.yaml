@@ -3,7 +3,7 @@ description: "Welcome to my website and blog."
 author: "me"
 
 url: "https://sarahrashed.com/"
-baseurl: "/sarah-website"
+baseurl: ""
 
 theme: jekyll-theme-cayman
 plugins:
