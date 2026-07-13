@@ -5,7 +5,7 @@ author: "me"
 url: "https://sarahrashed.com/"
 baseurl: ""
 
-remote-theme: mmistakes/minmal-mistakes
+remote-theme: mmistakes/minimal-mistakes
 
 plugins:
   - jekyll-feed
