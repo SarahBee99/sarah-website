@@ -1,8 +1,8 @@
-# Hello World
+<!-- # Hello World
 
-This is my first webpage. 
+This is my first webpage.  -->
 
-## Posts
+<!-- ## Posts
 
 Here are my blog posts:
 <ul>
@@ -11,4 +11,4 @@ Here are my blog posts:
       <a href="{{ post.url | relative_url }}">{{ post.title }}</a> — {{ post.date | date_to_string }}
     </li>
   {% endfor %}
-</ul>
+</ul> -->
