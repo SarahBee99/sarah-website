@@ -1,11 +1,11 @@
-title: "My Website"
-description: "Welcome to my website and blog."
-author: "me"
+title: "Sarah Rashed"
+description: "Personal Website"
+author: "Sarah"
 
 url: "https://sarahrashed.com/"
 baseurl: ""
 
-remote_theme: mmistakes/minimal-mistakes
+minimal_mistakes_skin: aqua
 
 plugins:
   - jekyll-feed
