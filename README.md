@@ -1,6 +1,8 @@
 # Static Website Hosting with CI/CD
 
-![Diagram](./Diagram/diagram.png)
+![Diagram](./Diagram/final-diagram.png)
+
+![Diagram](./Diagram/final-diagram-2.png)
 
 This project uses static site generator Jekyll and Githhub Actions to automate the build and deployment of a static website for the intended use as a personal portfolio/website.
 

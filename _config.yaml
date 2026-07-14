@@ -5,7 +5,7 @@ author: "Sarah"
 url: "https://sarahrashed.com/"
 baseurl: ""
 
-minimal_mistakes_skin: aqua
+minimal_mistakes_skin: "aqua"
 
 plugins:
   - jekyll-feed
