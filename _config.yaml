@@ -17,7 +17,7 @@ plugins:
 
 #Analytics
 analytics:
-  provider               : "google"
+  provider               : "google-gtag"
   google:
     tracking_id          : G-CMDLV8KVW3
     anonymize_ip         : false
