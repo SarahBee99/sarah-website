@@ -1,0 +1,37 @@
+title: "Sarah Rashed"
+description: "Personal Website"
+author: "Sarah"
+
+url: "https://sarahrashed.com/"
+baseurl: ""
+
+remote_theme: mmistakes/minimal-mistakes
+
+minimal_mistakes_skin: "aqua"
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-remote-theme
+  - jekyll-include-cache
+
+#Analytics
+analytics:
+  provider : "google-gtag"
+  google:
+    tracking_id : G-CMDLV8KVW3
+    anonymize_ip : false
+
+    # Defaults
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
