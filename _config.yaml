@@ -12,3 +12,10 @@ plugins:
   - jekyll-sitemap
   - jekyll-remote-theme
   - jekyll-include-cache
+
+#Analytics
+analytics:
+  provider               : "google"
+  google:
+    tracking_id          : G-CMDLV8KVW3
+    anonymize_ip         : false
