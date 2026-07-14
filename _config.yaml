@@ -5,6 +5,8 @@ author: "Sarah"
 url: "https://sarahrashed.com/"
 baseurl: ""
 
+remote_theme: mmistakes/minimal-mistakes
+
 minimal_mistakes_skin: "aqua"
 
 plugins:
