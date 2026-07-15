@@ -1,7 +1,1 @@
----
-
-classes: wide
-
----
-
-# Welcome 
+## Sample Content 

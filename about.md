@@ -1,7 +1,3 @@
----
-classes: wide 
----
-
 # About 
 
 

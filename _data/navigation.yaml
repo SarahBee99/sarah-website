@@ -1,3 +1,9 @@
+--- 
+
+classes: wide
+
+---
+
 main:
   - title: "About"
     url: /about/
