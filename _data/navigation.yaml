@@ -1,8 +1,8 @@
 main:
   - title: "About"
     url: /about/
-  - title: "Résumé"
-    url: /posts/
+  # - title: "Résumé"
+  #   url: /posts/
   - title: "Portfolio"
     url: /portfolio/
   # - title: "Tags"
@@ -11,6 +11,6 @@ main:
   #   url: /page-archive/
   # - title: "Collections"
   #   url: /collection-archive/
-  - title: "LinkedIN"
-    url: www.linkedin.com/in/sarah-rashed-1457a2217
-    target: _blank
+  # - title: "LinkedIN"
+  #   url: www.linkedin.com/in/sarah-rashed-1457a2217
+  #   target: _blank
