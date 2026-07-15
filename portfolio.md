@@ -1,2 +1,7 @@
+---
+layout: single
+title: "Portfolio Page"
+classes: wide
+---
 
-# Personal Portfolio
+Sample content 
