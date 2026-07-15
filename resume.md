@@ -1,8 +1,8 @@
 ---
 layout: single
-title: "Resume"
+title: ""
 classes: wide
 ---
 
-## Sample Content 
+## Resume
 This is where content would go

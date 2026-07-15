@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Posts"
+title: ""
 classes: wide
 ---
 
