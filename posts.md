@@ -1,3 +1,9 @@
+---
+layout: single
+title: "Posts"
+classes: wide
+---
+
 ## Posts
 
 Here are my blog posts:
