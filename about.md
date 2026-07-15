@@ -1,5 +1,6 @@
-# About 
+---
+layout: post
+title: "About"
+classes: wide
 
-
-  This is the about page. 
-
+---
